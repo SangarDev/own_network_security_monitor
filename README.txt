@@ -1,11 +1,11 @@
-OWN NETWORK SECURITY MONITOR
+# OWN NETWORK SECURITY MONITOR
 
-Description:
+## Description:
 A Python console-based tool for ethically monitoring devices connected
 to the user's own Wi-Fi network. Trusted devices are defined strictly
 through manual user input.
 
-Features:
+## Features:
 - Lists connected devices on the local network
 - Displays IP address, MAC address, and hostname
 - User-controlled trusted device list
@@ -13,13 +13,13 @@ Features:
 - Logs scan history to CSV
 - Read-only and non-intrusive
 
-Technologies:
+## Technologies:
 - Python 3
 - subprocess
 - socket
 - CSV handling
 
-How to Run:
+## How to Run:
 1. Open terminal / PowerShell
 2. Navigate to project directory
 3. Run:
