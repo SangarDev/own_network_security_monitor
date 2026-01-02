@@ -1,18 +1,18 @@
 # OWN NETWORK SECURITY MONITOR
 
 ## Description:
-A Python console-based tool for ethically monitoring devices connected
-to the user's own Wi-Fi network. Trusted devices are defined strictly
-through manual user input, and the tool performs read-only network scans
-to identify unknown connections.
+A Python console-based application for ethically monitoring devices
+connected to the user's own Wi-Fi network. The tool performs read-only
+network scans and identifies trusted and unknown devices based strictly
+on user-defined input.
 
 ## Features:
-- Lists connected devices on the local network
+- Scans the local network using ARP
 - Displays IP address, MAC address, and hostname
 - User-controlled trusted device list
-- Flags unknown devices on the network
+- Identifies unknown devices on the network
 - Logs scan history to a CSV file
-- Read-only and non-intrusive operation
+- Read-only, non-intrusive, and ethical operation
 
 ## Technologies:
 - Python 3
@@ -27,19 +27,16 @@ to identify unknown connections.
 - README.txt              Project documentation
 
 ## How to Run:
-1. Open Terminal or PowerShell
+1. Open Command Prompt or PowerShell
 2. Navigate to the project directory
 3. Run the command:
-
-## How to Run:
-1. Open terminal / PowerShell
-2. Navigate to project directory
-3. Run:
-
    python monitor.py
 
 ## Ethical Use:
-This tool is intended only for monitoring networks that you own or have
-explicit permission to manage. It does not perform hacking, password
-extraction, spying, or any form of unauthorized access.
+This project is intended only for monitoring networks that you own or
+have explicit permission to manage. It does not perform hacking,
+password extraction, spying, or unauthorized access of any kind.
+
+## Author:
+Sangar Khan
 
