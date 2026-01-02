@@ -30,6 +30,12 @@ to identify unknown connections.
 1. Open Terminal or PowerShell
 2. Navigate to the project directory
 3. Run the command:
+
+## How to Run:
+1. Open terminal / PowerShell
+2. Navigate to project directory
+3. Run:
+
    python monitor.py
 
 ## Ethical Use:
